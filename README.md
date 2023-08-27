@@ -2,7 +2,7 @@
 The goal of this project is to create a working plugin that emulates electric guitar effects using neural models in C++ through blackbox modelling of analog pedals. At the same time this plugin is intended to implement a chain of the above mentioned effects.
 
 # SETUP
-The project was done on Windows OS and is built using the CMake framework. 
+The project was done on Windows OS and is built using CMake. 
 It is necessary to create a folder for the project that contains another folder with src folder, CMakeLists.txt, images folder, models folder, README.md file.
 Training has already been done.
 It is necessary to include in the CMakeLists.txt the RTNeural library and save it locally on the PC. 
