@@ -4,6 +4,7 @@ The goal of this project is to create a working plugin that emulates electric gu
 # SETUP
 The project was done on Windows OS and is built using the CMake framework. 
 It is necessary to create a folder for the project that contains another folder with src folder, CMakeLists.txt, images folder, model folder, README.md file.
+Training has already been done.
 It is necessary to include in the CMakeLists.txt the RTNeural library and save it locally on the PC. 
 Be sure to change all the RTNeurals paths before running the build, as well for the JUCE path. 
 The src folder contains the PluginProcessor.cpp and PluginProcessor.h files. In addition there are also the PluginEditor.h and PluginEditor.cpp files to make it possible to develop a GUI for our plugin. Add only .cpp files to the target sources.
