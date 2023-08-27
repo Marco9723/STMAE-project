@@ -1,0 +1,9 @@
+1) Create a project folder with the following files:
+   -src
+   -models
+   -images
+   -CMakeLists.txt
+   -README.MD
+   (-train: training has already been done)
+
+2) Run "cmake -B build" in the project folder
