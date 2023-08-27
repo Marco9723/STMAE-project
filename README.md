@@ -11,8 +11,7 @@ The src folder contains the PluginProcessor.cpp and PluginProcessor.h files. In 
 the PluginEditor.h and PluginEditor.cpp files to make it possible to develop a GUI for our plugin. Only
 .cpp files have been added to the target sources. It was also necessary to add in the private part of the
 target link libraries JUCE’S DSP module: it allows to define and use DSP processes quickly.
-An external sound card to connect the guitar is required with a low buffer size setup - for latency issues
-- and a sampling frequency of 44.1 kHz. Once all this is done it will be possible to build the project
+An external sound card to connect the guitar is required with a low buffer size setup (for latency issues) and a sampling frequency of 44.1 kHz. Once all this is done it will be possible to build the project
 using the command ”cmake -B build ” via terminal, after being positioned in the project folder. Also
 remember to change the paths of the models in .json format (explained later) in PluginProcessor.cpp
 and of the .png files loaded by the PluginEditor.cpp.
