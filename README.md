@@ -1,6 +1,12 @@
 # LSTM GEAR
 The goal of this project is to create a working plugin that emulates electric guitar effects using neural models in C++ through blackbox modelling of analog pedals. At the same time this plugin is intended to implement a chain of the above mentioned effects.
 
+<p align=center>
+  <picture>
+    <img src="./images/lstm_gear.png" height="300"/>
+  </picture>
+</p>
+
 # SETUP
 The project was done on Windows OS and is built using CMake. It is necessary to create a folder
 for the project that contains another folder with source files, CMakeLists.txt, images files,
