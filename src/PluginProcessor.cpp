@@ -193,7 +193,7 @@ void Stmaeproject_pluginAudioProcessor::prepareToPlay (double sampleRate, int sa
     *firstNoiseBlocker.state = *juce::dsp::IIR::Coefficients<float>::makeLowPass(sampleRate, 2000.0f);
     *secondNoiseBlocker.state = *juce::dsp::IIR::Coefficients<float>::makeLowPass(sampleRate, 4000.0f);
 
-    juce::dsp::ProcessSpec spec{ sampleRate, static_cast<juce::uint32> (samplesPerBlock), 2 }; //IMPORTANTE
+    juce::dsp::ProcessSpec spec{ sampleRate, static_cast<juce::uint32> (samplesPerBlock), 2 }; 
 
     // We need to reset our filters and initialize the filter
     // void prepare (const ProcessSpec &) noexcept
