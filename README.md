@@ -21,6 +21,7 @@ An external sound card to connect the guitar is required with a low buffer size 
 using the command **”cmake -B build”** via terminal, after being positioned in the project folder. **Also
 remember to change the paths of the models in .json format (explained later) in PluginProcessor.cpp
 and of the .png files loaded by the PluginEditor.cpp.**
+Check out **INSTRUCTIONS.txt.**
 
 # LINK VIDEO:
 https://www.youtube.com/watch?v=GoWgHEdeOak
