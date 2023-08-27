@@ -18,3 +18,6 @@ and of the .png files loaded by the PluginEditor.cpp.
 
 # LINK VIDEO:
 https://www.youtube.com/watch?v=GoWgHEdeOak
+
+# REPORT
+The description of the code and its technical evaluation has been summarized in a report. Take a look at the LSTM GEAR.pdf file
