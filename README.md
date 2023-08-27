@@ -1,7 +1,7 @@
-#LSTM GEAR
+# LSTM GEAR
 The goal of this project is to create a working plugin that emulates electric guitar effects using neural models in C++ through blackbox modelling of analog pedals. At the same time this plugin is intended to implement a chain of the above mentioned effects.
 
-#SETUP
+# SETUP
 The project was done on Windows OS and is built using the CMake framework. 
 It is necessary to create a folder for the project that contains another folder with the source code, a CMakeLists.txt and a README.md file.
 It is necessary to include in the CMakeLists.txt the RTNeural library and save it locally on the PC. 
@@ -12,5 +12,5 @@ An external sound card to connect the guitar is also required with a low buffer 
 Once all this is done it will be possible to build the project using the command cmake -B build via terminal, after being positioned in the project folder.
 Also remember to change the paths of the models in .json format in PluginProcessor.cpp and of the .png files loaded by the PluginEditor.cpp.
 
-LINK VIDEO:
+# LINK VIDEO:
 https://www.youtube.com/watch?v=GoWgHEdeOak
