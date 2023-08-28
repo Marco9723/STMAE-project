@@ -7,3 +7,5 @@
    (-train: training has already been done)
 
 2) Run "cmake -B build" in the project folder
+
+3) change the paths in the scripts .cpp
